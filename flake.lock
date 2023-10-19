@@ -30,24 +30,10 @@
         "type": "indirect"
       }
     },
-    "osx-kvm": {
-      "flake": false,
-      "locked": {
-        "lastModified": 0,
-        "narHash": "sha256-d4JZtpX3YhxsCIkAPcAyfzew18Su90AsP5BeNUqxUD0=",
-        "path": "./",
-        "type": "path"
-      },
-      "original": {
-        "path": "./",
-        "type": "path"
-      }
-    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs",
-        "osx-kvm": "osx-kvm"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
